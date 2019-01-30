@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2301424322024C3E00C808BF /* iOS_11_GM_Wallpaper_Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2301424222024C3D00C808BF /* iOS_11_GM_Wallpaper_Earth.jpg */; };
+		23014245220253C500C808BF /* button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23014244220253C500C808BF /* button.jpg */; };
+		230142472202549500C808BF /* madden.png in Resources */ = {isa = PBXBuildFile; fileRef = 230142462202549500C808BF /* madden.png */; };
 		2344034B21FE678800B9B6B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2344034A21FE678800B9B6B1 /* AppDelegate.m */; };
 		2344034E21FE678800B9B6B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2344034D21FE678800B9B6B1 /* ViewController.m */; };
 		2344035121FE678800B9B6B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2344034F21FE678800B9B6B1 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2301424222024C3D00C808BF /* iOS_11_GM_Wallpaper_Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = iOS_11_GM_Wallpaper_Earth.jpg; path = ../../../../Downloads/iOS_11_GM_Wallpaper_Earth.jpg; sourceTree = "<group>"; };
+		23014244220253C500C808BF /* button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = button.jpg; path = ../../../../Downloads/button.jpg; sourceTree = "<group>"; };
+		230142462202549500C808BF /* madden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = madden.png; path = ../../../../Downloads/madden.png; sourceTree = "<group>"; };
 		2344034621FE678800B9B6B1 /* cs441_assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cs441_assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2344034921FE678800B9B6B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2344034A21FE678800B9B6B1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +64,9 @@
 		2344034821FE678800B9B6B1 /* cs441_assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				230142462202549500C808BF /* madden.png */,
+				23014244220253C500C808BF /* button.jpg */,
+				2301424222024C3D00C808BF /* iOS_11_GM_Wallpaper_Earth.jpg */,
 				2344034921FE678800B9B6B1 /* AppDelegate.h */,
 				2344034A21FE678800B9B6B1 /* AppDelegate.m */,
 				2344034C21FE678800B9B6B1 /* ViewController.h */,
@@ -128,7 +137,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				230142472202549500C808BF /* madden.png in Resources */,
 				2344035621FE678D00B9B6B1 /* LaunchScreen.storyboard in Resources */,
+				23014245220253C500C808BF /* button.jpg in Resources */,
+				2301424322024C3E00C808BF /* iOS_11_GM_Wallpaper_Earth.jpg in Resources */,
 				2344035321FE678D00B9B6B1 /* Assets.xcassets in Resources */,
 				2344035121FE678800B9B6B1 /* Main.storyboard in Resources */,
 			);

@@ -13,11 +13,30 @@
 @end
 
 @implementation ViewController
-
+@synthesize button;
+@synthesize label;
+@synthesize image;
+@synthesize toggle;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    toggle = 0;
 }
 
+-(IBAction)doSomething: (id) sender
+{
+    if(toggle == 0){
+    [label setText:@"I love Java and Android!"];
+    image.image = [UIImage imageNamed : @"madden.png"];
+        toggle = 1;
+    }
+    else
+    {
+        [label setText:@ "Hello World"];
+    image.image = [UIImage imageNamed : @"iOS_11_GM_Wallpaper_Earth.jpg"];
+        toggle = 0;
+    }
+    
+}
 
 @end
